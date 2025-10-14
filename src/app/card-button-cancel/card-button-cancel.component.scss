@@ -1,5 +1,7 @@
-.card-button {
-    background-color: #000;
+@import 'variables';
+ 
+ .card-button-cancel {
+    background-color: $bgColor;
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -9,6 +11,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
+    margin-top: 10px;
 
     &:hover{
         background-color:lighten($color: #000000, $amount: 15%);

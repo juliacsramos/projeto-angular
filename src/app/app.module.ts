@@ -7,7 +7,7 @@ import { CardsModule } from './cards/cards.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ], // todo componente tem que ser declarado, modulos nâo podem ser declarados
   imports: [
     BrowserModule,
