@@ -1,0 +1,16 @@
+.card-button-cancel {
+    background-color: rgb(189, 32, 32) !important;
+} // o ngdeep perfura o encapsulamento de estilos e aplica o estilo globalmente
+// além disso, o ng deep não aplica as mudanças apenas nos filhos mas também nos componentes que estão ligados diretamente
+// ou seja, o estilo será aplicado em todos os componentes card-button-cancel
+//uma solução é o :host
+//o :host isola o estilo para o componente atual
+//ou seja, o estilo será aplicado apenas no componente atual, o que resolve parcialmente o problema do ng deep ser global
+
+.mdc-slider__track--active_fill{
+    border-color: brown !important;
+}
+.mdc-slider__thumb-knob{
+    background-color: brown !important;
+    border-color: brown !important;
+}
